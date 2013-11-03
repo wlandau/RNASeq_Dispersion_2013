@@ -1,0 +1,7 @@
+1. Compare with similar studies by Wu et al. and Yu et al.
+2. Why Anders and Huber normalization? Or, how does normalization affect dispersion estimation and tests for differential expression?
+3. Address reasons for "systematic biases" in Figure 4 and their implications.
+4. Explain how to construct an ROC curve in more detail.
+5. Explain small AUC values.
+6. Explain why AUCs are all the same for the QL test.
+7. Explain why the Trended APL and Tagwise APL methods have similar MSE but different AUC.
