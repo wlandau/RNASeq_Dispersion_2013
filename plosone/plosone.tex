@@ -211,9 +211,9 @@ across the two treatments or equivalently expressed %CHANGE: removed "(EE)"
 genes because we expect some differentially expressed %CHANGE: "DE" => "differentially expressed"
 genes are dependent in real dataset. We also simulated datasets with $\delta_g$'s from independent standard normal distributions, and the simulation results do not change significantly from what we present later in this article.
 
-\paragraph{} \indent The computer code used to generate the pseudo-datasets and compute the results is available in the supporting information of this article. The code requires R version 2.15.3 and the R packages listed in Table \ref{tab:software}.
+\paragraph{} \indent Simulation Code S1, the R code used to generate the pseudo-datasets and conduct the analyses, is available as supporting information. The code requires R version 2.15.3 and the R packages listed in Table \ref{tab:software}.
 
-%CHANGE: "The computer code used to generate the pseudo-datasets and compute the results is available online through PLOS One. The code requires R version 2.15.3 and the R packages listed in Table \ref{tab:software}." => "The computer code used to generate the pseudo-datasets and compute the results is available in the supporting information of this article. The code requires R version 2.15.3 and the R packages listed in Table \ref{tab:software}."
+%CHANGE: "The computer code used to generate the pseudo-datasets and compute the results is available online through PLOS One. The code requires R version 2.15.3 and the R packages listed in Table \ref{tab:software}." => "Simulation Code S1, the R code used to generate the pseudo-datasets and conduct the analyses, is available as supporting information. The code requires R version 2.15.3 and the R packages listed in Table \ref{tab:software}."
 
 \subsubsection*{Simulation Settings}
 
@@ -477,7 +477,7 @@ dispersion for all genes is too unrealistic in practice. For example, the disper
 
 \begin{table}[!ht] % Table 1
    \centering
-   \caption{{\bf R Packages Required for the Simulation Study's Implementation.} The simulation code is available in the supporting information of this article.} %CHANGE: "The simulation code and its auxiliary files will be included upon publication." => "The simulation code is available in the supporting information of this article."
+   \caption{{\bf R Packages Required for the Simulation Study's Implementation.} For the full implementation, please see Simulation Code S1.} %CHANGE: "The simulation code and its auxiliary files will be included upon publication." => "Simulation Code S1, the R code used to generate the pseudo-datasets and conduct the analyses, is available as supporting information."
 \begin{tabular}{|c|c|c|}
 Package & Version & Repository \\
   abind & 1.4-0 &CRAN\\
@@ -516,5 +516,10 @@ VI & Hammer & 9 & 9 \\
    \label{tab:simset}
 \end{table}
 
+
+\section*{Supporting Information Legends}
+
+% Simulation Code S1
+{{\bf Simulation Code S1. R code used to generate the pseudo-datasets and conduct the analyses.} The software requirements can be found in Table \ref{tab:software}.}
 
 \end{document} 
